@@ -1,12 +1,40 @@
-# React + Vite
+# SDE Sheet Tracker  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive progress tracker for coding interview preparation with problem categorization, progress tracking, and solution management.
 
-Currently, two official plugins are available:
+## ✨ Features 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Problem Organization**  
+  - Categorized by pattern (Two Pointer, Sliding Window, etc.)
+  - Grouped by difficulty level
 
-## Expanding the ESLint configuration
+- **Progress Tracking**  
+  - Visual progress bars at multiple levels
+  - Completion statistics (X/Y problems solved)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Solution Management**  
+  - 📝 Notes with Markdown support
+  - 💻 Code snippets with syntax highlighting
+  - ⏱ Time/Space complexity tracking
+
+- **Data Persistence**  
+  - Automatically saves to browser's IndexedDB
+  - No server dependency
+
+## Installation 🛠️
+
+```bash
+git clone https://github.com/yourusername/byts-sde-tracker.git
+cd byts-sde-tracker
+npm install
+npm start
+```
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+## 📩 Contact
+For any queries, reach out to:
+- **GitHub**: [MANOJ-80](https://github.com/MANOJ-80)
