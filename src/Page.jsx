@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, ChevronRight, Save, Download, RotateCcw, Clock, Zap, Code, FileText, CheckCircle2, Book } from 'lucide-react';
+import { ChevronDown, ChevronRight, Save, Download, RotateCcw, Clock, Zap, Code, FileText, CheckCircle2,} from 'lucide-react';
 
 
 const COLORS = {
@@ -505,9 +505,8 @@ const SDESheetTracker = () => {
           ))}
         </div>
       </div>
+   </div>
 
-
-    </div>
   );
 };
 
